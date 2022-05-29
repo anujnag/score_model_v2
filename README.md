@@ -1,1 +1,3 @@
-# score_model_v2
+# score_matching_refined
+
+To run the code, python3 -W ignore main.py

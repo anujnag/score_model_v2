@@ -1,0 +1,24 @@
+# data_dim: 2
+num_samples: 1
+# n_data: 3000
+# layer_sizes: [32, 32, 32, data_dim]
+# layer_sizes: [32,  data_dim]
+channels: [32, 64, 128, 256]
+# channels: [32, 32, 32, 32]
+scale: 30.0
+embed_dim: 256
+random_seed: 0
+batch_size: 256
+# chain_length: 10
+sigma: 25
+num_epochs: 20
+lr: 1e-3
+error_tolerance: 1e-3
+# langevin_iterations: 100000
+# langevin_burnin: 80000
+# langevin_stepsize: 1e-4
+use_wandb: True
+load_model: False
+calculate_likelihood: True
+plot_points: True
+langevin: False
